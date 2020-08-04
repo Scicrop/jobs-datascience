@@ -1,8 +1,8 @@
 
 
-## My Solution of Data Science Intern  Process (Coding Interview)
+# My Solution of Data Science Intern  Process (Coding Interview)
 
-#  <img src="https://scicrop.com/images/new-site/logo-scicrop.png" style="zoom:150%;" />
+<p align="center"><img src="https://scicrop.com/images/new-site/logo-scicrop.png" style="zoom:150%;" /></p>
 
 ## About the process
 
