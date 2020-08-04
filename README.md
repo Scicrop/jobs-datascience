@@ -16,11 +16,11 @@ What things you need to undertand this repository
 ```
  Good knowledgment in Machine Learning (supervised learning), and know how to use jupyter-notebook.
 ```
-
+<!--
 ## Processo seletivo para Estágio em Data Science 
 
 Este exercício não tem o foco de analisar a acurácia dos modelos, mas sim a forma como você pensou para resolvê-lo. Por conta disso, faça o exercício organizado e com comentários.
-
+-->
 ### Installing
 
 The first step is install the pandas library:
