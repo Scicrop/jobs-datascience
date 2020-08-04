@@ -43,7 +43,7 @@ And The last step is install the sklearn library:
 
 ### Usage
 
-To run the experiment you have to open the teminar and type the following command and press enter:
+To run the experiment you have to open the teminal and type the following command and press enter:
 
 ```
  jupyter-notebook apply-machine-learning-techniques.ipynb
