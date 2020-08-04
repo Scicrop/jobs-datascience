@@ -1,17 +1,62 @@
 
 
-
-
-
+## My Solution of Data Science Intern  Process (Coding Interview)
 
 #  <img src="https://scicrop.com/images/new-site/logo-scicrop.png" style="zoom:150%;" />
+
+## About the process
+
+For you know more about the interview process, please just click in the [main repository](https://github.com/Scicrop/jobs-datascience).
+
+## Getting Started
+
+### Prerequisites
+What things you need to undertand this repository
+
+```
+ Good knowledgment in Machine Learning (supervised learning), and know how to use jupyter-notebook.
+```
 
 ## Processo seletivo para Estágio em Data Science 
 
 Este exercício não tem o foco de analisar a acurácia dos modelos, mas sim a forma como você pensou para resolvê-lo. Por conta disso, faça o exercício organizado e com comentários.
 
+### Installing
+
+The first step is install the pandas library:
+
+```
+ pip install pandas
+```
+
+The second is install the numpy library:
+
+```
+ pip install numpy
+```
+
+And The last step is install the sklearn library:
+
+```
+ pip install scikit-learn
+```
+
+### Usage
+
+To run the experiment you have to open the teminar and type the following command and press enter:
+
+```
+ jupyter-notebook apply-machine-learning-techniques.ipynb
+```
 
 
+#
+
+<p align="center"><b>Sincerely:</b> <a href="https://github.com/neemiasbsilva">Neemias B. da Silva</a></p>
+
+#
+
+<!--
 **Instruções:**
 
 - Faça um fork deste repositório;
@@ -48,3 +93,4 @@ Este exercício não tem o foco de analisar a acurácia dos modelos, mas sim a f
 | dano_na_plantacao        | Variável de Predição - Dano no Cultivo (0=Sem Danos, 1=Danos causados por outros motivos, 2=Danos gerados pelos pesticidas) |
 
 SciCrop®
+-->
