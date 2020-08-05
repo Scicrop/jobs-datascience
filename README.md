@@ -50,6 +50,14 @@ To run the experiment you have to open the teminal and type the following comman
 ```
 
 
+## Results
+
+### Logistic Regression
+
+| __Precision__| __Recall__ | __f1-score__ | __accuracy__| 
+|:-------------:|:-------------:|:-------------:| :-------------:|
+| 0.84 | 0.99 | 0.91 | 0.83 |
+
 #
 
 <p align="center"><b>Sincerely:</b> <a href="https://github.com/neemiasbsilva">Neemias B. da Silva</a></p>
