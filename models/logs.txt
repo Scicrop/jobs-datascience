@@ -1,0 +1,2 @@
+Data-Hora: 2020-08-08 13:48 -- Número de Registros: 8858 -- Modelo Utilizado: clf_safra.pkl -- Arquivo de Predição: Safra_2020.csv -- Arquivo Salvo: predicao_test_logs_1.csv
+Data-Hora: 2020-08-08 13:49 -- Número de Registros: 8858 -- Modelo Utilizado: clf_safra.pkl -- Arquivo de Predição: Safra_2020.csv -- Arquivo Salvo: predicao_test_logs_2.csv
