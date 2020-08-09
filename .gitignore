@@ -6,7 +6,7 @@ __pycache__/
 
 # C extensions
 *.so
-Setup.py
+setup.py
 # Distribution / packaging
 src.egg-info/
 .Python

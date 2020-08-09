@@ -6,10 +6,11 @@ Case analítico proposto como etapa do processo seletivo de estágio em data sci
 Para configurar esse projeto, precisamos seguir os passos abaixo:
 
 ```
-mkdir <nome projeto>
+mkdir <<nome projeto>>
 pip3 install virtualenv
 virtualenv <nome do env>
 git clone git@github.com:grazimelo/jobs-datascience.git
+source <<nome projeto>>/bin/activate
 pip3 install -r requirements.txt
 
 ```
@@ -55,4 +56,4 @@ Organização do Projeto
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+<p><small>Projeto baseado em <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
