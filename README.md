@@ -2,6 +2,9 @@
 
 # My Solution of Data Science Intern  Process (Coding Interview)
 
+[![Build Status](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue)](https://www.python.org)
+[![Build Status](https://img.shields.io/badge/scikit--learn-up%20to%20date-brightgreen)](https://scikit-learn.org/stable/install.html)
+
 <p align="center"><img src="https://scicrop.com/images/new-site/logo-scicrop.png" style="zoom:150%;" /></p>
 
 ## About the process
