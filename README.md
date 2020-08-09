@@ -10,8 +10,9 @@ mkdir <<nome projeto>>
 cd <<nome projeto>>
 pip3 install virtualenv (se não já tiver instalado)
 virtualenv <<nome do env>>
-git clone git@github.com:grazimelo/jobs-datascience.git
+git clone -b solucao-grazielly git@github.com:grazimelo/jobs-datascience.git
 source <<nome do env>>/bin/activate
+pip3 install jupyter notebook
 cd jobs-datascience
 pip3 install -r requirements.txt
 
