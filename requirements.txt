@@ -9,3 +9,4 @@ missingno
 category-encoders
 yellowbrick
 optuna
+boruta
