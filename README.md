@@ -7,10 +7,12 @@ Para configurar esse projeto, precisamos seguir os passos abaixo:
 
 ```
 mkdir <<nome projeto>>
-pip3 install virtualenv
-virtualenv <nome do env>
+cd <<nome projeto>>
+pip3 install virtualenv (se não já tiver instalado)
+virtualenv <<nome do env>>
 git clone git@github.com:grazimelo/jobs-datascience.git
-source <<nome projeto>>/bin/activate
+source <<nome do env>>/bin/activate
+cd jobs-datascience
 pip3 install -r requirements.txt
 
 ```
