@@ -19,7 +19,7 @@ pip3 install -r requirements.txt
 ```
 Após isso, devemos instalar a pasta src como um pacote do virtualenv
 ```
-pip3 install --editable src
+pip3 install --editable .
 
 ```
 
