@@ -182,9 +182,3 @@ def comparacaoSafras():
 # Chamada da função
 comparacaoSafras()
 
-
-# A RESOLVER
-# relacaoDanoAnterior('dfSemanasSemUsoAnterior', dfSemanasSemUsoAnterior, 6, 2)
-# danoSafraAtual(semanasSemUsoAtual, dfSemanasSemUsoAnterior, 5, 1, 'semanas sem uso', True)
-
-
