@@ -2,10 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.__pycache__
 
 # C extensions
 *.so
-
+Setup.py
 # Distribution / packaging
 src.egg-info/
 .Python

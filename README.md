@@ -1,55 +1,56 @@
-case_scicrop
+Case SciCrop
 ==============================
 
 Case analítico proposto como etapa do processo seletivo de estágio em data science da SciCrop
 
-Project Organization
+Para configurar esse projeto, precisamos seguir os passos abaixo:
+
+```
+mkdir <nome projeto>
+pip3 install virtualenv
+virtualenv <nome do env>
+git clone git@github.com:grazimelo/jobs-datascience.git
+pip3 install -r requirements.txt
+
+```
+Após isso, devemos instalar a pasta src como um pacote do virtualenv
+```
+pip3 install --editable src
+
+```
+
+Para utilizar o modelo, precisamos executar:
+
+```
+python predict.py <nome do modelo> <nome do arquivo de predição> <nome do arquivo de resultado>
+
+```
+
+Organização do Projeto
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md          <- Descrição do Projeto
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   ├── results        <- Pasta com os arquivos de previsão gerados pelo modelo.
+    │   ├── inter          <- Dados com processamento intermediário (pré-modelagem)
+    │   ├── processed      <- Dados com processamento finalizado (pós-pipeline de transformação)
+    │   └── raw            <- Dados originais utilizados na modelagem.
+    |
+    ├── models             <- Arquivos binários (.sav, .pkl) com os modelos e logs de previsão em .txt
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── notebooks          <- Jupyter notebooks contendo o passo a passo da solução.
+    ├── figures            <- Imagens geradas na análise exploratória e demais etapas do projeto.
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── requirements.txt   <- Arquivo que contém todas as dependências do ambiente.
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── src                <- Pacote contendo todos os módulos, submódulos, funções e classes do projeto.
+    │   ├── __init__.py    <- Torna src um pacote.
+    │   ├── data_cleaning.py <- Módulo de limpeza de dados.
+    │   ├── selecao_de_features <- Módulo de seleção de features.
+    │   │── modelagem_metricas.py <- Módulo de modelagem e avaliação.
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    └── predict.py            <- Script que roda o modelo e realiza a previsão.
 
 
 --------
