@@ -6,7 +6,6 @@
 
 #  <img src="https://scicrop.com/images/new-site/logo-scicrop.png" style="zoom:150%;" />
 
-## Processo seletivo para Estágio em Data Science 
 
 Este exercício não tem o foco de analisar a acurácia dos modelos, mas sim a forma como você pensou para resolvê-lo. Por conta disso, faça o exercício organizado e com comentários.
 
