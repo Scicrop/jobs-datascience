@@ -1,12 +1,39 @@
 
+# Project Structure
+```
+.
+├── data
+├── docs
+├── results
+└── src
+    ├── models
+    ├── notebooks
+    └── pipeline
+```
+# Make Commands
 
+## Run Pipeline
+```
+make train_predict
+```
+- Split data into training and validation subsets
+- Fit models on training data and saves models
+- Predict on `Safra_2020.csv` and save results in `./results`
 
+## Run in Docker 🐋
+```
+make docker
+```
+- Buid docker image `scicrop:pipline` from Dockerfile
+- Run docker with `./results` directory mounted in container
 
+[NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-docker) is necessary to run in GPU.
 
+---
 
 #  <img src="https://scicrop.com/images/new-site/logo-scicrop.png" style="zoom:150%;" />
 
-## Processo seletivo para Estágio em Data Science 
+## Processo seletivo para Estágio em Data Science
 
 Este exercício não tem o foco de analisar a acurácia dos modelos, mas sim a forma como você pensou para resolvê-lo. Por conta disso, faça o exercício organizado e com comentários.
 
@@ -20,7 +47,7 @@ Este exercício não tem o foco de analisar a acurácia dos modelos, mas sim a f
 
 - Faça um Pull-Request com a solução.
 
-  
+
 
 -----
 
