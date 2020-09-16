@@ -1,10 +1,10 @@
-Python Modules
-=======================================
+lib package
+===========
 
-.. Submodules
-.. ----------
+Submodules
+----------
 
-**data\_processing.py**
+lib.data\_processing module
 ---------------------------
 
 .. automodule:: lib.data_processing
@@ -12,7 +12,7 @@ Python Modules
    :undoc-members:
    :show-inheritance:
 
-**model.py**
+lib.model module
 ----------------
 
 .. automodule:: lib.model
@@ -20,7 +20,7 @@ Python Modules
    :undoc-members:
    :show-inheritance:
 
-**utils.py**
+lib.utils module
 ----------------
 
 .. automodule:: lib.utils
