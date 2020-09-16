@@ -7,7 +7,7 @@ Python Modules
 **data\_processing.py**
 ---------------------------
 
-.. automodule:: data_processing
+.. automodule:: lib.data_processing
    :members:
    :undoc-members:
    :show-inheritance:
@@ -15,7 +15,7 @@ Python Modules
 **model.py**
 ----------------
 
-.. automodule:: model
+.. automodule:: lib.model
    :members:
    :undoc-members:
    :show-inheritance:
@@ -23,7 +23,7 @@ Python Modules
 **utils.py**
 ----------------
 
-.. automodule:: utils
+.. automodule:: lib.utils
    :members:
    :undoc-members:
    :show-inheritance:
