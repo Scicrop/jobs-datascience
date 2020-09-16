@@ -1,3 +1,6 @@
+# Read The Docs
+
+https://jobs-datascience.readthedocs.io/
 
 # Project Structure
 ```
@@ -12,7 +15,7 @@
 ```
 # Make Commands
 
-## Run Pipeline
+### Run Pipeline 
 ```
 make train_predict
 ```
@@ -20,7 +23,7 @@ make train_predict
 - Fit models on training data and saves models
 - Predict on `Safra_2020.csv` and save results in `./results`
 
-## Run in Docker 🐋
+### Run in Docker 🐋
 ```
 make docker
 ```

@@ -11,7 +11,7 @@
    :width: 350
 
 
-My Scicrop application!
+My Scicrop job application!
 ===================================
 
 
@@ -36,7 +36,7 @@ is structured in 5 notebooks in which we explore the data and try different appr
 
 After we have the best solution we implement them in python scrips, there are 3 main scripts:
 
-1. train_test_split.python
+1. train_test_split.py
 2. create_models.py
 3. predict.py
 
